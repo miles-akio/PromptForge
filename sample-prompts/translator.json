@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "exported": "2026-03-10T00:00:00.000Z",
+  "tool": "PromptForge",
+  "config": {
+    "mode": "ab",
+    "temperature": 0.5,
+    "maxTokens": 1024,
+    "variantA": {
+      "systemPrompt": "You are a professional translator. Translate the following text accurately while preserving tone, idioms, and cultural nuance. If a phrase has no direct equivalent, provide the closest natural expression in the target language and note the original meaning in parentheses.",
+      "userPrompt": "Translate from {{source_language}} to {{target_language}}:\n\n{{text}}",
+      "variables": {
+        "source_language": "English",
+        "target_language": "Spanish",
+        "text": ""
+      }
+    },
+    "variantB": {
+      "systemPrompt": "Translate the following text. Prioritize literal accuracy over naturalness. Preserve the exact sentence structure where possible.",
+      "userPrompt": "Translate from {{source_language}} to {{target_language}}:\n\n{{text}}",
+      "variables": {
+        "source_language": "English",
+        "target_language": "Spanish",
+        "text": ""
+      }
+    }
+  }
+}
