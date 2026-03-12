@@ -1,4 +1,4 @@
-# Project Name ~ PromptForge
+# PromptForge ✍️ 
 
 **A real-time prompt engineering workbench powered by the Claude API**
 
